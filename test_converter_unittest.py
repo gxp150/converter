@@ -15,5 +15,6 @@ def testing_a_random_TypeError():
     with pytest.raises(TypeError):
         TypeError = "Must be fahrenheit"
         TypeError = "Must be 34"
+        # Not sure what to do here
 
 unittest.main()
